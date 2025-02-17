@@ -8,13 +8,19 @@
 <body>
     <header>
         <nav class="menu">
-            <img src="../public/underground.png" alt="Logo Underground" class="logo">
+            <img src="../public/linkdozaplogo.png" alt="Logo Underground" class="logo">
             <a href="/link">LinkdoZap</a>
             <a href="/chard">ChardlaPlaga</a>
             <a href="/ugo">Ugovhb</a>
             <a href="/ef">EF</a>
         </nav>
     </header>
+    <main class="pagina">
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
 
@@ -26,7 +32,7 @@
     }
 
      .logo {
-        width: 150px;
+        width: 100px;
     }
 
     .menu {
@@ -36,24 +42,48 @@
         width: 100%;
         padding: 0 50px; 
         box-sizing: border-box; 
-        border-bottom: 1px solid #0019a8;
+        border-bottom: 1px solid grey;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
     }
 
     a {
-        color: #0019a8;
+        color: black;
         text-decoration: none;
-        margin-left: 20px; 
+        margin-left: 20px;
+        text-shadow: 1px 3px grey; 
+    }
+
+    .menu a:last-child {
+        margin-right: 150px;
+    }
+
+    a:hover {
+        color: grey; 
+        text-shadow: 1px 1px 10px grey; 
+    }
+
+    .pagina {
+        background-color: black;
+        height: 100%;
+
     }
 
     @media (max-width: 768px) {
         .menu {
+            display: flex;
+            align-items: center;
             flex-direction: column; 
-            align-items: flex-start; 
+            padding: 20px;
         }
 
         a {
             margin-left: 0; 
             margin-top: 20px; 
+        }
+
+        .menu a:last-child {
+        margin-right: 0px;
         }
     }
 </style>
