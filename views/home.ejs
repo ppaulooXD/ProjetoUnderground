@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underground$ - HOME</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="../public/underground.png" alt="Logo Underground" class="logo">
+            <a href="/link">LinkdoZap</a>
+            <a href="/chard">ChardlaPlaga</a>
+            <a href="/ugo">Ugovhb</a>
+            <a href="/ef">EF</a>
+        </nav>
+    </header>
+</body>
+</html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+     .logo {
+        width: 150px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        width: 100%;
+        padding: 0 50px; 
+        box-sizing: border-box; 
+        border-bottom: 1px solid #0019a8;
+    }
+
+    a {
+        color: #0019a8;
+        text-decoration: none;
+        margin-left: 20px; 
+    }
+
+    @media (max-width: 768px) {
+        .menu {
+            flex-direction: column; 
+            align-items: flex-start; 
+        }
+
+        a {
+            margin-left: 0; 
+            margin-top: 20px; 
+        }
+    }
+</style>
