@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Underground$ - HOME</title>
+    <link rel="shortcut icon" type="imagex/png" href="../public/img/linkico.ico">
+    </head>
+    <header>
+        <nav class="menu">
+            <img src="../public/img/linkdozaplogo.png" alt="Logo Underground" class="logo">
+            <a href="/link">LinkdoZap</a>
+            <a href="/chard">ChardlaPlaga</a>
+            <a href="/ugo">Ugovhb</a>
+            <a href="/ef">EF</a>
+        </nav>
+    </header>
+
+    <%- body %>
+
+    <footer class="rodape">
+        <a target="_blank" href="https://www.instagram.com/p_amorim0/"><img src="../public/img/ph$.jpg" alt="Foto do Dev" class="dev"></a><br>
+        <p>Todos os direitos reservados.</p><br>
+        <p>ph$</p>
+    </footer>
+</html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+     .logo {
+        width: 100px;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        width: 100%;
+        padding: 0 50px; 
+        box-sizing: border-box; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        background-color: #f4f4f4;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .menu a {
+        color: black;
+        text-decoration: none;
+        margin-left: 20px;
+        text-shadow: 1px 3px grey; 
+    }
+
+    .menu a:last-child {
+        margin-right: 150px;
+    }
+
+    .menu a:hover {
+        color: grey; 
+        text-shadow: 1px 1px 10px grey; 
+    }
+
+    .dev {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .rodape {
+        text-align: center;
+        padding: 30px 20px;
+        background-color: #f4f4f4;
+        border-top: 1px solid #ddd;
+        font-size: 14px;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape a {
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape p {
+        font-size: 12px;
+        color: #777;
+    }
+
+    .rodape img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+
+    .rodape a:hover img {
+        opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+        .menu {
+            display: flex;
+            align-items: center;
+            flex-direction: column; 
+            padding: 20px;
+        }
+
+        .menu a {
+            margin-left: 0; 
+            margin-top: 20px; 
+        }
+
+        .menu a:last-child {
+        margin-right: 0px;
+        }
+    }

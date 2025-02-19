@@ -19,6 +19,7 @@
   "homepage": "https://github.com/ppaulooXD/ProjetoUnderground#readme",
   "dependencies": {
     "ejs": "^3.1.10",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1"
   }
 }
