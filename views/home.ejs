@@ -22,18 +22,24 @@
     <h3>
         O "Underground" no Rock e no Metal
     </h3>
-    <p>
-        A cena de rock underground no Brasil também teve um grande impulso a partir dos anos 80, com a chegada de bandas que misturavam o rock alternativo e o metal. No Rio de Janeiro, por exemplo, a Legião Urbana e o Engenheiros do Hawaii traziam uma abordagem mais lírica e introspectiva, enquanto em São Paulo, bandas como Titas, Capital Inicial, e Barão Vermelho estavam mais relacionadas ao movimento de rock mais voltado para o mainstream. No entanto, o verdadeiro "underground" nesse período se deu com o movimento de metal e o hardcore, com bandas como Sepultura (que começou de forma independente e foi para o sucesso mundial) e Korzus se destacando.
-        Além disso, o rock alternativo, mais experimental e de vanguarda, também teve seu espaço com artistas como Os Mutantes, que foram parte da Tropicália (movimento de vanguarda dos anos 60) e se mantiveram com uma pegada mais alternativa ao longo dos anos.
-    </p>
+    <div class="containerLegiao">
+        <p class="textoLegiao">
+            A cena de rock underground no Brasil também teve um grande impulso a partir dos anos 80, com a chegada de bandas que misturavam o rock alternativo e o metal. No Rio de Janeiro, por exemplo, a Legião Urbana e o Engenheiros do Hawaii traziam uma abordagem mais lírica e introspectiva, enquanto em São Paulo, bandas como Titas, Capital Inicial, e Barão Vermelho estavam mais relacionadas ao movimento de rock mais voltado para o mainstream. No entanto, o verdadeiro "underground" nesse período se deu com o movimento de metal e o hardcore, com bandas como Sepultura (que começou de forma independente e foi para o sucesso mundial) e Korzus se destacando.
+            Além disso, o rock alternativo, mais experimental e de vanguarda, também teve seu espaço com artistas como Os Mutantes, que foram parte da Tropicália (movimento de vanguarda dos anos 60) e se mantiveram com uma pegada mais alternativa ao longo dos anos.
+        </p>
+        <img src="../public/img/legiao.jpg" alt="Foto da Legião Urbana" class="fotoLegiao">
+    </div>
     <h3>
         Rap e Hip Hop no Brasil
     </h3>
-    <p>
-        O rap e o hip hop têm uma conexão forte com o movimento underground no Brasil. A cultura hip hop, que começou nas periferias de Nova York nos anos 70, encontrou no Brasil uma enorme adesão nas décadas seguintes. No Brasil, o rap se tornou uma poderosa ferramenta de expressão das classes populares, com letras que abordam temas como desigualdade social, violência policial e a vida nas favelas.
-        Artistas como Racionais MC's, Emicida, Criolo e MV Bill fizeram parte dessa cena. Racionais, por exemplo, começou a carreira no underground, fazendo letras que falavam diretamente sobre as dificuldades de viver na periferia e as injustiças sociais. A cena hip hop brasileira, com sua rima afiada e crítica social, permaneceu com um caráter independente, longe do mainstream da música pop.
-        Nos anos 2000, o trap, uma variação mais recente do hip hop, também encontrou seu espaço na cena underground brasileira, com artistas como Froid, Djonga e Baco Exú do Blues se destacando.
-    </p>
+    <div class="containerRap">  
+        <img src="../public/img/racionais.jpeg" alt="Foto dos Racionais MC's" class="fotoRacionais">
+        <p class="textoRap">
+            O rap e o hip hop têm uma conexão forte com o movimento underground no Brasil. A cultura hip hop, que começou nas periferias de Nova York nos anos 70, encontrou no Brasil uma enorme adesão nas décadas seguintes. No Brasil, o rap se tornou uma poderosa ferramenta de expressão das classes populares, com letras que abordam temas como desigualdade social, violência policial e a vida nas favelas.
+            Artistas como Racionais MC's, Emicida, Criolo e MV Bill fizeram parte dessa cena. Racionais, por exemplo, começou a carreira no underground, fazendo letras que falavam diretamente sobre as dificuldades de viver na periferia e as injustiças sociais. A cena hip hop brasileira, com sua rima afiada e crítica social, permaneceu com um caráter independente, longe do mainstream da música pop.
+            Nos anos 2000, o trap, uma variação mais recente do hip hop, também encontrou seu espaço na cena underground brasileira, com artistas como Froid, Djonga e Baco Exú do Blues se destacando.
+        </p>
+    </div>
     <h3>
         Tecnobrega e Música Eletrônica
     </h3>
@@ -64,6 +70,7 @@
         max-width: 960px;
         margin: 0 auto;
         padding: 20px;
+        margin-bottom: 40px;
     }
 
     h1 {
@@ -86,12 +93,11 @@
         font-size: 1.1em;
         line-height: 1.6;
         text-align: justify;
-        margin-bottom: 20px;
         color: #555;
     }
 
     p:last-of-type {
-        margin-bottom: 40px;
+
     }
 
     section {
@@ -125,5 +131,54 @@
         object-fit: fill;
         margin-bottom: 45px;
     }
+
+    .containerRap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        margin-bottom: 40px;
+        gap: 30px;
+    }
+
+    .textoRacionais {
+        flex: 1; 
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: justify;
+        margin-right: 20px;
+    }
+
+    .fotoRacionais {
+        width: 40%; 
+        max-width: 400px;
+        height: 400px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        object-fit: fill;
+        margin-bottom: 45px;
+    }
+
+    .containerLegiao {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+
+    .fotoLegiao {
+        display: block;
+        margin: 0 auto 20px; 
+        width: 60%; 
+        max-width: 500px;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .textoLegiao {
+        font-size: 1.1em;
+        line-height: 1.6;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
 
 </style>
