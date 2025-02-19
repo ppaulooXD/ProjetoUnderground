@@ -10,7 +10,7 @@
         Seu EP mais recente, intitulado "Kalledy", apresenta músicas como "Lágrimas no Celular", 
         "Nunca Mais Vou Ser CLT" e "Memórias Póstumas do Herói".
     </p>
-    <img src="../public/img/linkdozappfp.jpeg" alt="Foto do Kalledy" class="linkdozap">
+    <img src="../public/img/linkdozappfp.png" alt="Foto do Kalledy" class="linkdozap">
     <label for="audio" class="nomeAudio">
         Ouvir "Anti Herói" 
     </label>
@@ -99,7 +99,33 @@
         font-weight: bold;
     }
 
-    
+    @media (max-width: 768px) {
+        .pagina {
+            padding: 10px; 
+        }
 
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
 
+        p {
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+
+        .linkdozap {
+            max-width: 90%; 
+            margin: 10px auto;
+        }
+
+        .audio {
+            max-width: 90%; 
+            margin: 15px auto;
+        }
+
+        .nomeAudio {
+            font-size: 1rem;
+        }
+    }
 </style>

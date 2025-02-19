@@ -1,3 +1,148 @@
-<h1>
-    Ugovhb
-</h1>
+<section class="pagina">
+    <h1>
+        Ugovhb
+    </h1>
+    <p>
+        Ugovhb é um artista que se destaca no cenário musical underground brasileiro, 
+        sendo uma figura importante no rap e na música alternativa. 
+        Com um estilo único, ele mistura influências de rap, trap e sonoridades experimentais para
+        criar uma música que vai além dos limites do convencional. Suas produções são conhecidas
+        pela intensidade das letras, que frequentemente abordam temas profundos como a luta social,
+        questões existenciais e a vida nas periferias urbanas. A autenticidade de Ugovhb o posiciona
+        como uma voz de resistência, desafiando a indústria musical comercial e buscando criar um 
+        som que se conecta diretamente com aqueles que procuram alternativas para o mainstream.
+    </p>
+    <img src="../public/img/ugovhbpfp.jpg" alt="Foto do Ugovhb" class="ugovhb">
+    <label for="audio" class="nomeAudio">
+        Ouvir "WTF2" 
+    </label>
+    <audio controls class="audio">
+        <source src="../public/audio/wtf2.mp3" type="audio/mp3">
+        Seu navegador não suporta
+    </audio>
+    <p>
+        No coração de sua música está a crítica social. 
+        Ugovhb utiliza suas rimas afiadas para abordar as injustiças que permeiam a sociedade brasileira,
+        trazendo à tona a violência policial, a desigualdade e as dificuldades enfrentadas pelas 
+        comunidades periféricas. Porém, o artista também explora temas mais pessoais e introspectivos,
+        o que confere uma profundidade emocional ao seu trabalho. Sua capacidade de transitar entre 
+        questões políticas e existenciais é uma das marcas que o torna um nome relevante dentro da cena
+        underground. <br>
+        Além de sua habilidade lírica, Ugovhb se destaca pelo caráter experimental de suas produções.
+        Ele se afasta das fórmulas tradicionais do rap e do trap, buscando novas sonoridades e arranjos
+        que fogem do que se encontra nas grandes plataformas de streaming. Sua estética sonora, 
+        muitas vezes crua e sem filtros, faz parte do movimento DIY (faça você mesmo), que é uma 
+        característica central da cena underground. Ele não se limita ao que é comercialmente viável,
+        preferindo explorar novas possibilidades sonoras e sonhar com uma música mais autêntica e 
+        experimental. <br>
+        Com uma abordagem independente, Ugovhb tem se destacado como um dos nomes mais importantes do 
+        rap underground brasileiro. Seus lançamentos, que muitas vezes são feitos de maneira autônoma,
+        são uma prova de sua dedicação à liberdade criativa e à resistência ao sistema. Através das 
+        plataformas digitais, como Spotify e YouTube, ele tem conseguido ampliar sua base de fãs, 
+        conectando-se com uma audiência que valoriza a autenticidade e a busca por algo mais real e 
+        profundo dentro da música. Para Ugovhb, a música é uma forma de expressão sem censura, uma 
+        ferramenta de resistência e um meio de conectar-se com os outros de uma maneira genuína.        
+    </p>
+</section>
+
+<style>
+    .pagina {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555;
+        text-align: justify;
+        line-height: 1.8;
+    }
+
+    .ugovhb {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .audio {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        padding: 10px; 
+        border: 2px solid #ccc; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nomeAudio {
+        display: block;
+        font-size: 1.2rem;
+        color: #333;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    audio::before {
+        content: "Seu navegador não suporta a tag de áudio.";
+        color: #f00;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .pagina {
+            padding: 10px; 
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+
+        .ugovhb {
+            max-width: 90%; 
+            margin: 10px auto;
+        }
+
+        .audio {
+            max-width: 90%; 
+            margin: 15px auto;
+        }
+
+        .nomeAudio {
+            font-size: 1rem;
+        }
+    }
+</style>

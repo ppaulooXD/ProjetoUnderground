@@ -1,3 +1,140 @@
-<h1>
-    Chard la Plaga
-</h1>
+<section class="pagina">
+    <h1>
+        Chard la Plaga
+    </h1>
+    <p>
+        Chard La Plaga é um artista brasileiro emergente na cena do rap underground, 
+        conhecido por suas letras intensas e estilo único. 
+        Ele tem colaborado com diversos artistas e lançado músicas que refletem a realidade das
+         periferias urbanas.
+    </p>
+    <img src="../public/img/chardlaplagapfp.jpg" alt="Foto do Chard" class="chardlaplaga">
+    <label for="audio" class="nomeAudio">
+        Ouvir "#pensando" 
+    </label>
+    <audio controls class="audio">
+        <source src="../public/audio/pensando.mp3" type="audio/mp3">
+        Seu navegador não suporta
+    </audio>
+    <p>
+        Ele se destaca por sua habilidade lírica, criando rimas que não apenas entretêm, 
+        mas também provocam reflexões profundas sobre o cotidiano. 
+        Seu estilo é caracterizado por letras intensas e uma sonoridade que flerta com o experimentalismo,
+        ao mesmo tempo em que mantém uma conexão firme com o rap tradicional. Ao longo de sua carreira,
+        Chard La Plaga tem colaborado com outros artistas do underground, como Ugovhb e Link do Zap,
+        e sua música reflete um espírito de resistência, mantendo-se distante das grandes indústrias
+        musicais comerciais <br>
+        A sua discografia é uma mistura de lançamentos que exploram tanto questões sociais quanto 
+        pessoais. Álbuns como "PRAGACORE, Vol. 1" e "Chard Vs O Inevitável Avanço Tecnológico" mostram a 
+        versatilidade de Chard La Plaga, que não tem medo de desafiar o status quo. 
+        Suas produções, muitas vezes feitas de maneira independente, preservam a essência do movimento 
+        DIY (faça você mesmo), característico da cena underground. <br>
+        Com a popularização das plataformas digitais, Chard La Plaga tem aproveitado para ampliar
+        seu alcance, usando o Spotify, o Apple Music e até mesmo o TikTok para conectar-se com 
+        seu público. Sua música continua a ressoar com aqueles que buscam alternativas às produções
+        comerciais, celebrando a liberdade criativa e a resistência ao mainstream.
+    </p>
+</section>
+
+<style>
+    .pagina {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555;
+        text-align: justify;
+        line-height: 1.8;
+    }
+
+    .chardlaplaga {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .audio {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        padding: 10px; 
+        border: 2px solid #ccc; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nomeAudio {
+        display: block;
+        font-size: 1.2rem;
+        color: #333;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    audio::before {
+        content: "Seu navegador não suporta a tag de áudio.";
+        color: #f00;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .pagina {
+            padding: 10px; 
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+
+        .chardlaplaga {
+            max-width: 90%; 
+            margin: 10px auto;
+        }
+
+        .audio {
+            max-width: 90%; 
+            margin: 15px auto;
+        }
+
+        .nomeAudio {
+            font-size: 1rem;
+        }
+    }
+
+</style>

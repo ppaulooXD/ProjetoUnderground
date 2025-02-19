@@ -1,3 +1,144 @@
-<h1>
-    EF
-</h1>
+<section class="pagina">
+    <h1>
+        EF
+    </h1>
+    <p>
+        EF do é um artista brasileiro que faz parte do coletivo de rap e 
+        trap Kebrada Boyz, um grupo de expressão importante no cenário underground. 
+        Ele é conhecido por suas letras afiadas e pelo estilo autêntico, que mistura rap e trap com 
+        influências do cotidiano das periferias urbanas. As músicas de EF abordam temas como desigualdade 
+        social, violência, resistência e a luta diária, sempre com uma pegada crua e reflexiva.
+    </p>
+    <img src="../public/img/efpfp.jpeg" alt="Foto do EF" class="ef">
+    <label for="audio" class="nomeAudio">
+        Ouvir "Fight Club" 
+    </label>
+    <audio controls class="audio">
+        <source src="../public/audio/fightclub.mp3" type="audio/mp3">
+        Seu navegador não suporta
+    </audio>
+    <p>
+        EF tem ganhado atenção por sua abordagem lírica sincera e inovadora, e tem se destacado no 
+        meio underground com suas colaborações e lançamentos que ressoam com o público que busca uma 
+        alternativa ao rap comercial. Além disso, seu estilo e as temáticas que explora refletem o espírito 
+        de resistência e independência que é característico de muitas figuras do rap underground brasileiro. <br>
+        O artista tem uma abordagem bastante crua e direta em suas letras, que abordam temas como 
+        violência policial, desigualdade social, e a dura realidade das comunidades periféricas. 
+        Suas músicas frequentemente falam sobre as dificuldades de viver na periferia, ao mesmo tempo em 
+        que ressaltam o orgulho da cultura local e a força de quem sobrevive a essa realidade. 
+        A linguagem de EF é contundente e cheia de crítica social, mas também transmite uma sensação de 
+        luta e esperança para as pessoas que compartilham dessas experiências. <br>
+        No entanto, o que realmente distingue EF é sua habilidade de mesclar sonoridades do rap com 
+        influências do trap, criando um som mais experimental e dinâmico. Suas produções têm um estilo 
+        mais crudo e independente, seguindo a filosofia do movimento "faça você mesmo" (DIY) que é muito 
+        presente no underground. Esse estilo único tem ganhado a atenção de fãs do rap mais alternativo 
+        e de jovens que buscam algo fora das produções comerciais da música mainstream. <br>
+        EF também tem se envolvido em várias colaborações com outros artistas do coletivo Kebrada Boyz e de 
+        outros grupos underground, ajudando a fortalecer a cena alternativa e criando uma rede de apoio e 
+        visibilidade para outros talentos do rap e trap nacional. Sua discografia tem sido marcada por 
+        lançamentos independentes que são bastante apreciados pelo público que valoriza a autenticidade e a 
+        resistência na música.
+    </p>
+</section>
+
+<style>
+    .pagina {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 40px;
+    }
+
+    section {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555;
+        text-align: justify;
+        line-height: 1.8;
+    }
+
+    .ef {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+    }
+
+    .audio {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        padding: 10px; 
+        border: 2px solid #ccc; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nomeAudio {
+        display: block;
+        font-size: 1.2rem;
+        color: #333;
+        text-align: center;
+        margin: 10px 0;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    audio::before {
+        content: "Seu navegador não suporta a tag de áudio.";
+        color: #f00;
+        text-align: center;
+        display: block;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+        .pagina {
+            padding: 10px; 
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1rem; 
+            line-height: 1.6; 
+        }
+
+        .ef {
+            max-width: 90%; 
+            margin: 10px auto;
+        }
+
+        .audio {
+            max-width: 90%; 
+            margin: 15px auto;
+        }
+
+        .nomeAudio {
+            font-size: 1rem;
+        }
+    }
+</style>
